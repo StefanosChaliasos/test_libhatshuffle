@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sh/Documents/Work/grnet/test_libhatshuffle/src/test_verify.cpp
+string
+-
+iostream
+-
+sstream
+-
+libhatshuffle/mixnet.h
+-
+

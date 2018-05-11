@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
     using milli = std::chrono::milliseconds;
     auto start = std::chrono::high_resolution_clock::now();
 
+    string public_file = "pk";
     string crs_file = "crs.json";
     string votes_file = "votes.json";
     string ciphertexts_file = "ciphertexts.json";
@@ -28,7 +29,7 @@ int main(int argc, char *argv[])
 
     bool verification;
 
-    cout << create_crs(n, crs_file);
+    cout << create_crs(n, crs_file, public_file);
 
     auto finish = std::chrono::high_resolution_clock::now();
     cout << std::chrono::duration_cast<milli>(finish - start).count() << endl;

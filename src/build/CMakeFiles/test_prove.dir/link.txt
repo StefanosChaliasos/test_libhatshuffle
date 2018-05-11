@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++  -isystem /usr/local/opt/llvm/include -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_prove.dir/test_prove.o  -o test_prove -lhatshuffle 

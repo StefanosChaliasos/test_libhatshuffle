@@ -1,0 +1,1 @@
+/usr/local/opt/llvm/bin/clang++  -isystem /usr/local/opt/llvm/include -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test_verify.dir/test_verify.o  -o test_verify -lhatshuffle 
